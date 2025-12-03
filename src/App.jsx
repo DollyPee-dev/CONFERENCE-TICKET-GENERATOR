@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom"
-import Form from "./components/Form"
 import Hero from "./components/Hero"
 import circle from '/assets/images/pattern-circle.svg'
 import lines from '/assets/images/pattern-lines.svg'

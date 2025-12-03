@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 import uploadImg from '/assets/images/icon-upload.svg'
 
 
-const uploadFile = ({ setAvatar }) => {
+const UploadFile = ({ setAvatar }) => {
     const [preview, setPreview] = useState(null);
 
 
@@ -123,4 +123,4 @@ const uploadFile = ({ setAvatar }) => {
     )
 }
 
-export default uploadFile
+export default UploadFile
