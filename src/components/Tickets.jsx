@@ -38,7 +38,7 @@ const Tickets = () => {
             <small className='text-neutralC-300 text-[10px] ml-[2.2rem]'>Jan 31. 2025 / Austin, TX</small>
           </div>
           <div className='mt-auto flex items-center'>
-            <img className='w-[40px] h-[40px] rounded-lg mr-2' src={avatar} alt="" />
+            <img className='w-[40px] h-[40px] rounded-lg mr-2 object-cover' src={avatar} alt="" />
             <div>
               <h3 className='text-neutralC-0 font-InconsolataMedium text-[1rem] leading-1'>{fullName}</h3>
               <div className='flex'>
