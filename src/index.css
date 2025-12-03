@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+  max-width: 1000px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+@layer base{
+  @font-face {
+    font-family: "Inconsolata-Bold";
+    src: url('/assets/fonts/static/Inconsolata-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: "Inconsolata-ExtraBold";
+    src: url('/assets/fonts/static/Inconsolata-ExtraBold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: "Inconsolata-Medium";
+    src: url('/assets/fonts/static/Inconsolata-Medium.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: "Inconsolata-Regular";
+    src: url('/assets/fonts/static/Inconsolata-Regular.ttf') format('truetype');
+  }
+}
+
+@layer utilities{
+  .file{
+    @apply w-full mt-1 border border-white/40 rounded-md bg-neutralC-300/10 p-2 mb-2 outline-none
+  }
+  .label{
+    @apply block mt-2 text-neutralC-0 text-[14px]
+  }
+  .imgUploadBtn{
+    @apply py-0 px-2 text-[10px]  text-white bg-neutralC-300/10 rounded
+  }
+}
